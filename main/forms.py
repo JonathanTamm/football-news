@@ -3,5 +3,5 @@ from main.models import News
 
 class NewsForm(ModelForm):
     class Meta:
-        model = News
+        model = News -f
         fields = ["title", "content", "category", "thumbnail", "is_featured"]
