@@ -11,7 +11,7 @@ def show_main(request):
         'npm' : '2406395695',
         'name': 'Jonathan Immanuel Tampubolon',
         'class': 'PBP F',
-        'news_list': news_list 
+        'news_list': news_list ;
     }
 
     return render(request, "main.html", context)
